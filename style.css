@@ -4,17 +4,31 @@ body{
   padding: 0px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 13px;
-  
 }
 
 h1{
-   font-size: 40px;
-   text-align  : center 
+   font-size: 30px;
+   text-align  : center
+}
+
+h2{
+   font-size: 20px;
+   text-align  : left
+   margin: 5px 5px 0px 5px;
+   padding: 5px 5px 0px 5px;
 }
 
 header{
   height: 100px;
+  background-color : rgb(66, 91, 138);
+  color: white;
+  padding: 15px;
  }
+
+ a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
 
  footer{
   font-family: 'Libre Franklin', sans-serif;
@@ -38,20 +52,118 @@ nav li {
 nav ul {
   margin: 0px;
   padding: 0px;
- }
+  display: table;
+  margin: 0 auto;
+}
 
 nav {
   width: 100%;
   background-color : rgb(210, 202, 236);
-  display: table;
-  margin: 0 auto;
- }
+}
 
 nav a {
   padding: 20px 30px;
   display: inline-block;
-  color : rgb(96,0,0);
   font-size: 15px;
   text-decoration: none;
-  
+  color : rgb(96,96,96);
+}
+
+@media screen and (max-width: 980px)
+{
+header{
+  height: 50px;
  }
+
+h1{
+   font-size: 20px;
+   text-align  : center;
+   margin : 20px;
+}
+
+h2{
+   font-size: 20px;
+   text-align  : left;
+   margin: 5px 5px 5px 5px;
+   padding: 5px 5px 5px 5px;
+}
+
+p{
+  font-size: 7px;
+  text-indent: 30px;
+  line-height: 20px;
+}
+
+ nav a {
+  padding: 10px 20px;
+  margin: 5px;
+  display: inline-block;
+  color : rgb(96,96,96);
+  font-size: 10px;
+  text-decoration: none;
+}
+
+footer{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
+  height: 45px;
+  text-align  : center;
+  background-color : rgb(254, 231, 240);
+  color : rgb(96,96,96);
+  border-top: thick double;
+  border-top-width: 2px;
+  border-top-color: rgb(96,96,96);
+  margin: 5px 5px 5px 5px;
+  padding-top: 5px;
+ }
+}
+
+#bandeannonce {
+ height: 500px;
+ padding-bottom: 20px;
+}
+
+.container{
+ margin: 0px 10%
+}
+
+.left{
+ float: left;
+ width: 50%;
+}
+
+.right{
+ font-size: 17px;
+ text-align: justify;
+ float: left;
+ width:50%;
+ text-align: top;
+ text-indent: 60px;
+ line-height: 30px;
+}
+
+#Réalisateurs{
+ width: 80%;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+}
+
+.real{
+ margin: 0px 5px 5px 5px;
+ padding: 0px 5px 5px 5px;
+ text-align : center;
+}
+
+#Acteurs{
+ width: 80%;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: left;
+}
+
+.act{
+ margin: 0px 5px 5px 5px;
+ padding: 0px 5px 5px 5px;
+ text-align : center;
+}
