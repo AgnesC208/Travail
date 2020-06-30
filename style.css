@@ -177,7 +177,7 @@ footer{
 
 
 
-@media screen and (max-width: 980px)
+@media screen and (min-width: 400px) and (max-width: 1080px)
 {
 header{
   height: 50px;
