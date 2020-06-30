@@ -175,9 +175,7 @@ footer{
  text-align : center;
 }
 
-
-
-@media screen and (min-width: 400px) and (max-width: 1080px)
+@media screen and (min-width: 480px) and (max-width: 1080px)
 {
 header{
   height: 50px;
