@@ -86,7 +86,6 @@ header{
 h1{
    font-size: 17px;
    text-align  : center;
-   padding-bottom: 20px;
 }
 
 h2{
@@ -96,20 +95,16 @@ h2{
    padding: 5px 5px 5px 5px;
 }
 
-.container{
- margin: 0px 0px 0px 0px;
- padding: 0px 0px 0px 0px;
-}
-
 #bandeannonce {
- height: 5000px;
+ height: 8000px;
  padding-bottom: 20px;
 }
 
-p{
- font-size: 12px;
- float: left; 
- text-align: none;
+.right{
+ font-size: 11px;
+ float: left;
+ width:50%;
+ text-align: top;
  text-indent: 20px;
  line-height: 14px;
 }
