@@ -71,12 +71,19 @@ nav a {
 
 @media screen and (max-device-width: 480px)
 {
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+}
 header{
   height: 50px;
  }
 
 h1{
-   font-size: 15px;
+   font-size: 10px;
    text-align  : center;
 }
 
@@ -88,7 +95,7 @@ h2{
 }
 
 p{
-  font-size: 7px;
+  font-size: 5px;
   text-indent: 20px;
   line-height: 10px;
 }
